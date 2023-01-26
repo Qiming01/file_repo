@@ -1,0 +1,149 @@
+{
+    "Version": 3,
+    "Type": 0,
+    "FileReferences": {
+        "Moc": "FileReferences_Moc_0.moc3",
+        "Textures": [
+            "FileReferences_Textures_0_0.png"
+        ],
+        "PhysicsV2": {},
+        "Motions": {
+            "脸红": [
+                {
+                    "Name": "脸红",
+                    
+                    "Expression": "lianhong"
+                }
+            ],
+            "默认": [
+                {
+                    "Name": "默认",
+                    "Expression": "moren"
+                }
+            ],
+            "任务完成": [
+                {
+                    "Name": "任务完成",
+                    "Expression": "moren"
+                }
+            ],
+            "天冷了": [
+                {
+                    "Name": "天冷了",
+                    "Expression": "lianhong"
+                }
+            ],
+            "可爱女孩": [
+                {
+                    "Name": "可爱女孩",
+                    "Expression": "lianhong"
+                }
+            ],
+            "好多话": [
+                {
+                    "Name": "好多话",
+                    "Expression": "moren"
+                }
+            ],
+            "默认 无声音": [
+                {
+                    "Name": "默认 无声音",
+                    "Expression": "moren"
+                }
+            ]
+        },
+        "Expressions": [
+            {
+                "Name": "lianhong",
+                "File": "FileReferences_Expressions_0_File_0.json"
+            },
+            {
+                "Name": "moren",
+                "File": "FileReferences_Expressions_1_File_0.json"
+            }
+        ]
+    },
+    "Controllers": {
+        "ParamHit": {},
+        "ParamLoop": {},
+        "KeyTrigger": {
+            "Items": [
+                {
+                    "Input": 97,
+                    "DownMtn": "任务完成:任务完成"
+                },
+                {
+                    "Input": 96,
+                    "DownMtn": "默认 无声音:默认 无声音"
+                },
+                {
+                    "Input": 98,
+                    "DownMtn": "天冷了:天冷了"
+                },
+                {
+                    "Input": 99,
+                    "DownMtn": "可爱女孩:可爱女孩"
+                },
+                {
+                    "Input": 100,
+                    "DownMtn": "好多话:好多话"
+                }
+            ],
+            "Enabled": true
+        },
+        "ParamTrigger": {},
+        "AreaTrigger": {},
+        "HandTrigger": {},
+        "EyeBlink": {
+            "MinInterval": 500,
+            "MaxInterval": 6000,
+            "Enabled": true
+        },
+        "LipSync": {
+            "Gain": 5.0
+        },
+        "MouseTracking": {
+            "SmoothTime": 0.15,
+            "Enabled": true
+        },
+        "AutoBreath": {
+            "Enabled": true
+        },
+        "ExtraMotion": {
+            "Enabled": true
+        },
+        "Accelerometer": {
+            "Enabled": true
+        },
+        "Microphone": {},
+        "Transform": {},
+        "FaceTracking": {
+            "Enabled": true
+        },
+        "HandTracking": {},
+        "ParamValue": {},
+        "PartOpacity": {},
+        "ArtmeshOpacity": {},
+        "ArtmeshColor": {},
+        "ArtmeshCulling": {
+            "DefaultMode": 0
+        },
+        "IntimacySystem": {}
+    },
+    "HitAreas": [
+        {
+            "Name": "moren",
+            "Id": "ArtMesh",
+            "Motion": "默认:默认"
+        },
+        {
+            "Name": "lianhong",
+            "Id": "ArtMesh5",
+            "Order": 1,
+            "Motion": "脸红:脸红"
+        }
+    ],
+    "Options": {
+        "TexFixed": true
+    }
+}
